@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D U M A | Coffee and Space</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="icon" href="assets/gambar/icons.png" type="image/png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <style>
+    .spinner-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 9999;
+    }
+
+    .spinner-border {
+      width: 3rem;
+      height: 3rem;
+      color: #fff;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="spinner-container" id="spinnerContainer">
+    <div class="spinner-border" role="status">
+      <span class="visually-hidden"></span>
+    </div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary active" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <!-- <img src="assets/gambar/icons.png" alt="Duma Coffee and Space" width="40" height="40"> -->
+        Duma Coffee and Space
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">Tentang</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Kontak</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Hero Section -->
+<section class="hero text-white text-center py-5" style="background-image: url('assets/gambar/dumakopi.jpg'); background-position: center bottom; margin-top: 35px;">
+  <div class="container">
+    <h1>Selamat Datang di Duma Kopi.</h1>
+    <p class="lead">Jelajahi harmoni yang sempurna antara cita rasa kopi dan kenikmatan yang menyejukkan.</p>
+    <a href="https://www.instagram.com/dumakopi.25/" class="btn btn-light btn-lg">
+      <i class="fab fa-instagram"></i> Ikuti Kami!
+    </a>
+  </div>
+</section>
+
+
+<!-- About Section -->
+<section id="about" class="py-5">
+  <div data-aos="zoom-out-up">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1 style="color: white;">Tentang Kami</h1>
+        <p align="justify" style="color: white;">Selamat datang di Duma Kopi, tempat di mana keindahan dan kehangatan kopi menyatu dalam suasana yang menenangkan. Kami adalah tempat yang didedikasikan untuk memberikan pengalaman kopi yang luar biasa kepada para pecinta kopi sejati. Di Duma Kopi, kami mengutamakan kualitas kopi terbaik. Biji kopi yang kami pilih dengan cermat berasal dari sumber-sumber terbaik di seluruh dunia. Kami menghargai setiap langkah dalam proses penanaman, panen, dan pengolahan biji kopi yang memastikan cita rasa yang konsisten dan berkualitas tinggi.</p>
+        <p align="justify" style="color: white;">Dengan menggunakan teknik penyeduhan yang tepat, kami menciptakan secangkir kopi yang menggugah selera dan memenuhi harapan Anda. Tak hanya kualitas kopi yang menjadi perhatian utama kami, kami juga menciptakan lingkungan yang hangat dan menyenangkan. Duma Kopi didesain dengan keindahan, menggabungkan sentuhan modern dengan nuansa yang nyaman. Dengan ruangan yang nyaman dan suasana yang ramah, kami mengundang Anda untuk menikmati waktu bersantai, bekerja, atau bersama teman-teman sambil menyeruput kopi yang lezat.</p>
+      </div>
+      <div class="col-lg-6">
+        <!-- Add an image of your cafe here -->
+        <div class="text-center">
+          <img src="assets/gambar/duma.jpg" alt="Cafe Image" class="img-fluid" style="max-width: 100%; height: auto;">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section class="py-5 bg-light">
+  <figure class="text-center">
+    <blockquote class="blockquote">
+      <p>"Kopi adalah obat kebosanan dan kelelahan."</p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      Oleh <cite title="Honoré de Balzac">Honoré de Balzac</cite>
+    </figcaption>
+  </figure>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h1 style="color: white;">Kontak Kami</h1>
+    <div class="row">
+      <div class="col-md-6">
+       <p style="color: white;"><i class="fas fa-map-marker-alt"></i>   Yos Sudarso No.789 (Seberang Poetri Soerabaya), Palangkaraya, Kalimantan Tengah, 73112</p>
+       <p>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.81113583462!2d113.88302047491929!3d-2.2246842977556787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dfcb3185638388f%3A0xeedf4c7c95469449!2sDUMA%20Coffee!5e0!3m2!1sen!2sid!4v1687936006363!5m2!1sen!2sid" width="360" height="210" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       </p>
+       <p style="color: white;" class="contact-info"><i class="fas fa-envelope"></i><a href="mailto:coffeandspace@dumakopi.com">coffeandspace@dumakopi.com</a></p>
+       <p style="color: white;" class="contact-info"><i class="fas fa-phone"></i><a href="tel:+6282157339086">+62-82157-339086</a></p>
+     </div>
+     <div class="col-md-6">
+      <form>
+        <div class="form-group mb-3">
+          <input type="text" class="form-control" placeholder="Nama Kamu">
+        </div>
+        <div class="form-group mb-3">
+          <input type="email" class="form-control" placeholder="Email Kamu">
+        </div>
+        <div class="form-group mb-3">
+          <textarea class="form-control" rows="5" placeholder="Pesan"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary float-right">Kirim Pesan</button>
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <div class="container">
+    <p>&copy; 2023 Duma Coffee and Space. By <a href="https://www.instagram.com/10969kmal/" style="background: linear-gradient(45deg, #FFFFFF, #E8E8E8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Kamaludin</a></p>
+  </div>
+</footer>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+<!-- JQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  // Menggunakan jQuery untuk mendapatkan perilaku scroll yang halus
+  $(document).ready(function() {
+    // Menangkap semua tautan dengan href berbasis anker
+    $('a[href^="#"]').on('click', function(event) {
+      // Pastikan hash tautan tidak kosong
+      if (this.hash !== '') {
+        // Menghentikan perilaku default dari tautan
+        event.preventDefault();
+
+        // Menyimpan hash tautan
+        var hash = this.hash;
+
+        // Menganimasikan scroll halaman menuju elemen target secara perlahan
+        $('html, body').animate(
+        {
+          scrollTop: $(hash).offset().top
+        },
+          800, // Durasi animasi (ms)
+          function() {
+            // Menambahkan hash ke URL setelah animasi selesai (opsional)
+            window.location.hash = hash;
+          }
+          );
+      }
+    });
+  });
+</script>
+
+<script>
+  var navbar = document.getElementById("navbar");
+  var prevScrollPos = window.pageYOffset;
+  var navbarHeight = navbar.offsetHeight;
+
+  window.addEventListener('scroll', function() {
+    var currentScrollPos = window.pageYOffset;
+
+    if (prevScrollPos > currentScrollPos) {
+      navbar.classList.add("active");
+    } else {
+      navbar.classList.remove("active");
+    }
+
+    prevScrollPos = currentScrollPos;
+  });
+</script>
+
+<script>
+  window.addEventListener('load', function () {
+    setTimeout(function() {
+      document.getElementById("spinnerContainer").style.display = "none";
+    }, 1000); // Durasi dalam milidetik (misalnya, 3000 = 3 detik)
+  });
+</script>
+
+
+</body>
+</html>
